@@ -1,6 +1,6 @@
 var i = 0;
-var txt = 'Marcland';
-var speed = 60;
+var txt = 'marcland';
+var speed = 70;
 
 function typeWriter() {
   if (i < txt.length) {
@@ -9,3 +9,5 @@ function typeWriter() {
     setTimeout(typeWriter, speed);
   }
 }
+
+document.onload = typeWriter()

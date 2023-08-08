@@ -1,8 +1,21 @@
 @font-face {
-  font-family: marcFont;
-  src: url(marcFont.woff2);
+  font-family: myFont;
+  src: url(marcFont.woff2) format('woff2');
 }
 
 p {
-  font-family: marcFont;
+  font-family: myFont;
+  font-size: 80px;
+  color: white;
+}
+
+#center {
+  margin: auto;
+  width: 50%;
+  border: 3px;
+  padding: 10px;
+}
+
+body {
+	background-color: black;
 }
