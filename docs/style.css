@@ -1,0 +1,8 @@
+@font-face {
+  font-family: marcFont;
+  src: url(marcFont.woff2);
+}
+
+p {
+  font-family: marcFont;
+}

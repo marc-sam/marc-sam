@@ -1,6 +1,6 @@
 var i = 0;
-var txt = 'Lorem ipsum dummy text blabla.';
-var speed = 50;
+var txt = 'Marcland';
+var speed = 60;
 
 function typeWriter() {
   if (i < txt.length) {
